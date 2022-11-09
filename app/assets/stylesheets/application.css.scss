@@ -42,6 +42,7 @@ background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, F
 }
 
 
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav > li > a:hover {
     color: red;
@@ -51,9 +52,16 @@ background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, F
         opacity :0.75;
     }
 }
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
 
-
-
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #00c6ff;
+  }
+}
 // Home Pages styles
 .home-callout {
     color: white;
